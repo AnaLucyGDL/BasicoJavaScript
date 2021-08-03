@@ -6,5 +6,10 @@ var nombre = "Lucy";
 
 //Declarar. Despúes se le dará un valor.
 var edad;
+
+edad //Indefinida. Espacio reservado sin valor, aún.
+
 //Inicializar. Ya fue declarada, ahora se le da un valor, y ya se puede utilizar.
 edad = 20;
+
+edad //Ya inicializada/Definida. Valor numerico.
