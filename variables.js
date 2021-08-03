@@ -13,3 +13,10 @@ edad //Indefinida. Espacio reservado sin valor, aún.
 edad = 20;
 
 edad //Ya inicializada/Definida. Valor numerico.
+
+//Variables complejas. 
+//Variables de arrays (conjuntos de elementos)
+var elementos = ["Computadora","Celular"];
+//"Elementos" es el espacio designado en memoria, tiene valores string/cadena de caracteres.
+//[] para valores string.
+//Simbolo "=" para inicializar
