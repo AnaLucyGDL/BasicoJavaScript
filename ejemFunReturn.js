@@ -6,8 +6,12 @@ function sumar(a,b){
     var resultado = a + b;
     return resultado;
     //return: palabra reservada para regresar valores.
+
+    //En lugar de crear la variable, también se puede pedir que se regrese
+    //el resultado de a + b con Return directamente:
+    //return a + b;
 }
 
 sumar (1,2)
-//Al ingresarse esta función con valores ya dados a los parametros, automaticamente
+//Al llamar esta función con valores ya dados a los parametros, automaticamente
 //regresa el resultado de la operación, que sería 3.
