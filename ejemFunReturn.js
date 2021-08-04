@@ -8,3 +8,6 @@ function sumar(a,b){
     //return: palabra reservada para regresar valores.
 }
 
+sumar (1,2)
+//Al ingresarse esta función con valores ya dados a los parametros, automaticamente
+//regresa el resultado de la operación, que sería 3.
