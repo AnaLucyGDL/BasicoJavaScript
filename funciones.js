@@ -7,3 +7,8 @@ function miFunción(){
 }
 
 //De expresión
+//•Las variables pueden guardar varios tipos de valores, incluso funciones.
+var miFunción = function (){
+    return a + b; 
+    //a y b serían el valor de dos variables que llamamos desde fuera de la función.
+}
