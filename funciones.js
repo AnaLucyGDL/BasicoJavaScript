@@ -22,3 +22,9 @@ var miFunción = function (a,b){
 //Para llamar una función expresiva se usa el nombre de la variable que
 //se le dio, y al poner parentesis se trata como una función.
 miFunción();
+
+//Las funciones expresivs también son llamadas "funciones anonimas" porque
+//no se le da un nombre a la función, sino que se genera una variable con una 
+//función, siendo la variable la que recibe el nombre.
+
+//**Los parametros son lo que se necesita para que la función genere su calculo
