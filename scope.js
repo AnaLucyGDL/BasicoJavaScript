@@ -13,5 +13,5 @@ function fun(){
     //Un scope local tiene acceso a las variables del scope global, pero el global no tiene
     //acceso a las variables de un scope local
 }
-
+fun();
  //console.log(apellido); No puede dar resultando al estar fuera del scope local
