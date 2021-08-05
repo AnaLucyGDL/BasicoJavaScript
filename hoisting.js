@@ -20,3 +20,8 @@ var nombre = "Lucy";
 
 //Al hacerse la prueba en la terminal del navegador, la función se ejecuta correctamente, pero
 //el valor se muestra como indefinido de nuevo.
+
+//El hoisting se produce cuando las funciones yo variables se procesan antes de que sean creadas o
+//declaradas. Las funciones pueden ser llamadas antes y al leerse las lineas posteriores se llevara
+//la función hacia arriba, pero al ser leída la variable que aun no es declarada, sube y la crea
+//con un valor "indefinido"
