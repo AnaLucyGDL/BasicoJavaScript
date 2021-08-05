@@ -21,3 +21,16 @@ typeof b
 //b muestra que contiene un valor "number" (numerico)
 //el simbolo "*" es un operador, por lo que el codigo supone que el "7" debe ser y es un valor
 //numerico con el que se hace una operación matematica, resultando en "28"
+
+//Explicitas
+
+var a = 20;
+var b = a + "";
+//Al usar console.log(b) en la terminal, imprimirá el resultado de 20, e indefinido debajo.
+//Para hacer que el 20 se vuelva string sin concatenar:
+var c = String(a);
+//Al usar typeof c se muestra que su  (20) es un string, habiendo hecho del 20 de a ahora un string
+
+//Para hacer de nuevo un 20 numerico:
+var d = Number(c)
+//Si introducimos typeof d, muestra que su valor (20) es numerico de nuevo.
