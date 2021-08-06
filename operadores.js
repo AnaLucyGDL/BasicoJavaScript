@@ -31,5 +31,13 @@ var a = 1; //declaracipon de una variable en que a es igual (=) a 1.
 
 5 >= 6; // >= (mayor o igual que...). False, 5 no es ni mayor ni igual que 6.
 
+//Validar si ambos valores son iguales o si uno es verdad
+
+a && b; // && validar si ambas variables son verdad. Si lo son, se cumple la condición.
+
+a || b; // || alguna debe ser verdad. Si una es true, la condición se cumple, si ambas son falsas, no se cumple.
+
+
+
 
 
