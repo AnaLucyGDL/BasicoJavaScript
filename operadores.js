@@ -9,3 +9,5 @@
 "Lucy " + "Guzmán"
 //El + con strings genera una concatenación, que es tomar los dos valores y juntarlos en uno solo que regresa
 //como string igualmente
+
+!false //! significa negación (En este caso se nega que algo es falso, dando como resultado true en la consola)
