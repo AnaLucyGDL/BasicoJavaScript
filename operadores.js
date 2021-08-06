@@ -6,3 +6,6 @@
 
 //Conocidos como operadores binarios porque es un operador generando algo entre dos valores/variables
 
+"Lucy " + "Guzmán"
+//El + con strings genera una concatenación, que es tomar los dos valores y juntarlos en uno solo que regresa
+//como string igualmente
