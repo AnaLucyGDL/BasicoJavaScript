@@ -37,7 +37,10 @@ a && b; // && validar si ambas variables son verdad. Si lo son, se cumple la con
 
 a || b; // || alguna debe ser verdad. Si una es true, la condición se cumple, si ambas son falsas, no se cumple.
 
+var edad = 40;
+edad ++ // ++ se usa para sumar 1 al valor de la variable usada. La consola dará el resultado 41.
 
+edad += 2 // += se usa para sumarle cierto valor a una variable, en este caso 2
 
 
 
