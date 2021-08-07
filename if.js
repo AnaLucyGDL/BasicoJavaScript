@@ -2,7 +2,7 @@
 //y que se puedan generar acciones con eso
 
 //condicional con validación true o false
-if (true){
+if (false){
     console.log("Hola");
 } else {
     console.log("Soy falso");
