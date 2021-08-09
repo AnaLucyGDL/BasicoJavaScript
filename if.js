@@ -18,3 +18,14 @@ if (a<20){
 } else {
 
 }
+
+//Ejemplo: Mayor de edad para votar.
+
+var edad = 18;
+if (edad===18){
+    console.log("Primera votación")
+} else if (edad<18) {
+    console.log("Puede votar")
+} else {
+    console.log("No puede votar")
+}
