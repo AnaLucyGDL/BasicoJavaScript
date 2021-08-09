@@ -29,3 +29,10 @@ if (edad===18){
 } else {
     console.log("No puede votar")
 }
+//Se pueden usar las validaciones requeridas según lo que se pida
+
+//Operador ternario: Generar un else y un if en la misma linea
+
+condition ? true : false;
+var numero = 1;
+var resultado = numero === 1 ? "Es un uno" : "No es un uno";
