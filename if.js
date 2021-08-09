@@ -20,7 +20,7 @@ if (a<20){
 }
 
 //Ejemplo: Mayor de edad para votar.
-
+//Hacer pruebas cambiando valor de "edad"
 var edad = 18;
 if (edad===18){
     console.log("Primera votación")
