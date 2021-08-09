@@ -36,3 +36,4 @@ if (edad===18){
 condition ? true : false;
 var numero = 1;
 var resultado = numero === 1 ? "Es un uno" : "No es un uno";
+console.log (resultado);
