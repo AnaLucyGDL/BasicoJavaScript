@@ -16,9 +16,14 @@ console.log (frutas[0]); //en programación, las cuentas inician desde 0
 //en la posición señalada (0) del index, si se introduce 1, se mostrará "Plátano", y así sucesivamente.
 
 //Para mutar el array (realizar cambios con metodos)
-                       //push va a añadir elementos al array
+                       //push añade/inserta elementos al array
 var masFrutas = frutas.push("Uvas");
 console.log (frutas);
 //Se mostraran los primeros 4 elementos, y se le agregará el quinto recién agregado (Uvas), mostrando
 //que ahora hay 5 elementos en total.
 console.log (frutas[0]);//para acceder al elemento "Uvas"
+
+                       //pop elimina elementos del array
+var ultimo = frutas.pop("Uvas");
+console.log (frutas);
+//Muestra los elementos del array, habiendose eliminado "Uvas", y quedando solo 4 elementos de nuevo
