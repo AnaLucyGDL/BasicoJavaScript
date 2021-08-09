@@ -4,6 +4,17 @@
 //condicional con validación true o false
 if (false){
     console.log("Hola");
-} else {
+} else {  //else (de otra manera)
+    console.log("Soy falso"); //si la condición del "if" no se cumple, se ejecuta la función del "else"
+}
+
+//Para cuando se tienen valores que quizás no se cumplan en la primera condición, pero puedan validarse
+//antes de la entrada del "else".
+
+if (a<20){
+    console.log("Hola");
+} else if (a>25) {
     console.log("Soy falso");
+} else {
+
 }
