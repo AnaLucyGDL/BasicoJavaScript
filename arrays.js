@@ -36,3 +36,10 @@ console.log (frutas);
 //Eliminar el primer elemento de la lista
 var borrarFruta = frutas.shift("Uvas");
 console.log (frutas);
+
+//Mutar array
+var posicion = frutas.indexOf("Cereza") //Nos mostrará la posición en que está el elemento "Cereza"
+posicion//en consola
+
+frutas[2]; //manda a llamar el elemento en tal posición del index directamente
+//* Nota: Al numero ([0] [1] etc) se le llama Index
