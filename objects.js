@@ -10,3 +10,7 @@ var carro = {
 };
 //se llama al objeto para que muestre sus propiedades
 carro;
+
+//acceder a los objetos / acceder a los valores de un objeto
+carro.marca
+//La consola del navegador devolverá "Toyota" al ser el valor de la palabra clave que buscamos
