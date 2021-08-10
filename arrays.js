@@ -29,6 +29,10 @@ console.log (frutas);
 //Muestra los elementos del array, habiendose eliminado "Uvas", y quedando solo 4 elementos de nuevo
 
 //Agregar un nuevo elemento al array, pero en lugar de que vaya al final, se inserta al inicio
-var nuevaLongitud =  frutas.unshift("Uvas")
+var nuevaLongitud =  frutas.unshift("Uvas");
 console.log (frutas);
 //Se muestran 5 elementos de nuevo, pero esta vez "Uvas" está al inicio, no al final como al usar push
+
+//Eliminar el primer elemento de la lista
+var borrarFruta = frutas.shift("Uvas");
+console.log (frutas);
