@@ -27,3 +27,13 @@ articulos.forEach(function(articulo){
     console.log(articulo.nombre);
 });
 //Regresa los nombres de todos los articulos
+//Metodo que se usa para consultar productos con cierto nombre en la e-commerce
+
+//Metodo Some
+var articulosBaratos = articulos.some(function(articulo){
+    return articulo.costo <= 700;
+});
+
+articulosBaratos;
+//Regresa una validación de verdadero o falso según si hay articulos que cumplan la validación o no.
+//También genera un nuevo array
