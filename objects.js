@@ -29,3 +29,6 @@ carro.marca
 
 carro.anio
 //La consola del navegador devolverá "2020"
+
+//*El "this" es una variable que hace referencia al objeto, en este caso hace referencia a su padre
+//que es el objeto global, que es "carro".
