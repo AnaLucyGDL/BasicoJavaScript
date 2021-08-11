@@ -10,9 +10,14 @@ function auto (marca, modelo, anio){
 }
 //tengo mi función que tiene como parametro, las propiedades que espero que tenga mi función
 auto;
-//al introducirlo en ña consola del navegador, se muestra la función entera de nuevo:
+//al introducirlo en ña consola del navegador, se muestra la *función entera de nuevo:
 // function auto (marca, modelo, anio){
 //    this.marca = marca; 
 //    this.modelo = modelo;
 //    this.anio = anio;
 //}
+
+//Para construir un objeto nuevo relacionado al anterior template*
+//"new" es un operador para generar una nueva estancia de la función constructora
+//una estancia es un objeto derivado de otro
+var autoNuevo = new auto ("Tesla", "Model 3", 2020);
