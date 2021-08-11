@@ -12,6 +12,8 @@ var articulos = [
 ]
 
 //Creación de metodos para recorrer el contenido del array
+
+//Metodo Filter
 var articulosFiltrados = articulos.filter(function(articulo){
     return articulo.costo <= 500;
 })
@@ -22,6 +24,7 @@ articulosFiltrados;
 //Se introduce en consola y muestra que hay dos objetos que cumplen con lo pedido en la función del
 //metodo "articulosFiltrados"
 
+//Metodo Map
 var nombreArticulos = articulos.map(function(articulo){
     return articulo.nombre;
 })
