@@ -35,5 +35,7 @@ var articulosBaratos = articulos.some(function(articulo){
 });
 
 articulosBaratos;
+//True
+
 //Regresa una validación de verdadero o falso según si hay articulos que cumplan la validación o no.
 //También genera un nuevo array
