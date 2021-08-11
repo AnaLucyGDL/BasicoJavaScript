@@ -15,7 +15,7 @@ var articulos = [
 
 //Metodo Filter
 var articulosFiltrados = articulos.filter(function(articulo){
-    return articulo.costo <= 500;
+    return articulo.costo <= 500
 })
 //En lo anterior "filter" es entendido como el nombre del nuevo array
 //El filter está agregando a un nuevo array los objetos que cumplen con la validación (articulo.costo <= 500)
