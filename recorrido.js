@@ -10,3 +10,8 @@ var articulos = [
     {nombre: "Audifonos", costo: 1700},
     //mientras más objetos se tengan, el filtrar se vuelve más "valioso" para ocupar estos metodos
 ]
+
+//Creación de metodos para recorrer el contenido del array
+var articulosFiltrados = articulos.filter(function(articulo){
+    return articulo.costo <= 500;
+})
