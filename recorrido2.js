@@ -18,5 +18,12 @@ var encuentraArticulo = articulos.find(function(articulo){
 });
 
 encuentraArticulo;
-//Una vez se llama al metodo anterior, la consola muestra el articulo que cumple con lo pedido
+//Una vez se llama al metodo anterior, la consola muestra el contenido del nuevo array con el articulo 
+//que cumple con lo pedido
 //{nombre: "Laptop", costo: 20000}
+
+//Metodo forEach
+articulos.forEach(function(articulo){
+    console.log(articulo.nombre);
+});
+//Regresa los nombres de todos los articulos
