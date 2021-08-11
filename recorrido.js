@@ -15,6 +15,9 @@ var articulos = [
 var articulosFiltrados = articulos.filter(function(articulo){
     return articulo.costo <= 500;
 })
+//El filter está agregando a un nuevo array los objetos que cumplen con la validación (articulo.costo <= 500)
+
 articulosFiltrados;
 //Se introduce en consola y muestra que hay dos objetos que cumplen con lo pedido en la función del
 //metodo "articulosFiltrados"
+
