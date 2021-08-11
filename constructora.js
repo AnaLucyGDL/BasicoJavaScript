@@ -21,3 +21,7 @@ auto;
 //"new" es un operador para generar una nueva estancia de la función constructora
 //una estancia es un objeto derivado de otro
 var autoNuevo = new auto ("Tesla", "Model 3", 2020);
+
+autoNuevo;
+//al introducirlo en ña consola del navegador, se muestra:
+// auto {marca: "Tesla", modelo: "Model 3", anio: 2020}
