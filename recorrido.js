@@ -15,9 +15,17 @@ var articulos = [
 var articulosFiltrados = articulos.filter(function(articulo){
     return articulo.costo <= 500;
 })
+//En lo anterior "filter" es entendido como el nombre del nuevo array
 //El filter está agregando a un nuevo array los objetos que cumplen con la validación (articulo.costo <= 500)
 
 articulosFiltrados;
 //Se introduce en consola y muestra que hay dos objetos que cumplen con lo pedido en la función del
 //metodo "articulosFiltrados"
 
+var nombreArticulos = articulos.map(function(articulo){
+    return articulo.nombre;
+})
+//En lo anterior "map" es entendido como el nombre del nuevo array
+
+nombreArticulos;
+//Al llamar al metodo, se mostrarán los nombres de todos los articulos en string
