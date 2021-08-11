@@ -9,3 +9,10 @@ function auto (marca, modelo, anio){
     this.anio = anio;
 }
 //tengo mi función que tiene como parametro, las propiedades que espero que tenga mi función
+auto;
+//al introducirlo en ña consola del navegador, se muestra la función entera de nuevo:
+// function auto (marca, modelo, anio){
+//    this.marca = marca; 
+//    this.modelo = modelo;
+//    this.anio = anio;
+//}
